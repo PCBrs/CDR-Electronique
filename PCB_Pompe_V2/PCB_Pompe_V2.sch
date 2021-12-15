@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 11
 Title "PCB Pompe"
 Date ""
 Rev "v2"
@@ -50,7 +50,7 @@ SWDIO
 Text GLabel 2600 3450 2    50   Input ~ 0
 SWCLK
 $Comp
-L Device:Crystal_GND23_Small Y1
+L Device:Crystal_GND24_Small Y1
 U 1 1 5FB44954
 P 950 1400
 F 0 "Y1" V 750 1350 50  0000 L CNN
@@ -196,15 +196,15 @@ Text GLabel 2600 2450 2    50   Input ~ 0
 P3
 Text GLabel 2600 2650 2    50   Input ~ 0
 P4
-Text GLabel 2600 2850 2    50   Input ~ 0
+Text GLabel 1300 2050 0    50   Input ~ 0
 P5
-Text GLabel 1300 2250 0    50   Input ~ 0
+Text GLabel 2600 3550 2    50   Input ~ 0
 P8
 Text GLabel 2600 2150 2    50   Input ~ 0
 V1
 Text GLabel 2600 2350 2    50   Input ~ 0
 V2
-Text GLabel 1300 2150 0    50   Input ~ 0
+Text GLabel 2600 3150 2    50   Input ~ 0
 V7
 Text GLabel 1300 2450 0    50   Input ~ 0
 P9
@@ -212,15 +212,15 @@ Text GLabel 2600 2550 2    50   Input ~ 0
 V3
 Text GLabel 2600 2750 2    50   Input ~ 0
 V4
-Text GLabel 2600 2950 2    50   Input ~ 0
+Text GLabel 1300 2150 0    50   Input ~ 0
 V5
 Text GLabel 1300 2350 0    50   Input ~ 0
 V8
 Text GLabel 1300 2550 0    50   Input ~ 0
 V9
-Text GLabel 2600 3050 2    50   Input ~ 0
+Text GLabel 2600 2850 2    50   Input ~ 0
 P6
-Text GLabel 2600 3150 2    50   Input ~ 0
+Text GLabel 2600 2950 2    50   Input ~ 0
 V6
 $Comp
 L Device:LED D1
@@ -837,7 +837,7 @@ Wire Wire Line
 	2000 3750 1900 3750
 Wire Wire Line
 	1800 3750 1900 3750
-Text GLabel 1300 2050 0    50   Input ~ 0
+Text GLabel 2600 3050 2    50   Input ~ 0
 P7
 Wire Wire Line
 	1300 3550 1250 3550
@@ -845,24 +845,10 @@ Text GLabel 1300 2650 0    50   Input ~ 0
 P10
 Text GLabel 1300 2750 0    50   Input ~ 0
 V10
-Text GLabel 1300 3050 0    50   Input ~ 0
-P11
-Text GLabel 1300 3150 0    50   Input ~ 0
-V11
-Text GLabel 1300 3250 0    50   Input ~ 0
-P12
-Text GLabel 1300 3350 0    50   Input ~ 0
-V12
 Text GLabel 1300 1650 0    50   Input ~ 0
 P13
 Text GLabel 1300 1750 0    50   Input ~ 0
 V13
-Text GLabel 2600 3250 2    50   Input ~ 0
-P14
-Text GLabel 2600 3550 2    50   Input ~ 0
-V14
-Text GLabel 1300 3450 0    50   Input ~ 0
-P15
 Text GLabel 1300 1850 0    50   Input ~ 0
 V15
 $Comp
@@ -1003,34 +989,5 @@ U 61AB277B
 F0 "sheet61AB2775" 50
 F1 "MOS10.sch" 50
 $EndSheet
-$Sheet
-S 5850 3650 650  400 
-U 61AB277D
-F0 "sheet61AB2776" 50
-F1 "MOS11.sch" 50
-$EndSheet
-$Sheet
-S 6750 3650 650  400 
-U 61AB277F
-F0 "sheet61AB2777" 50
-F1 "MOS12.sch" 50
-$EndSheet
-$Sheet
-S 4100 4250 650  400 
-U 61AB9540
-F0 "sheet61AB953B" 50
-F1 "MOS13.sch" 50
-$EndSheet
-$Sheet
-S 5000 4250 650  400 
-U 61AB9542
-F0 "sheet61AB953C" 50
-F1 "MOS14.sch" 50
-$EndSheet
-$Sheet
-S 5850 4250 650  400 
-U 61AB9544
-F0 "sheet61AB953D" 50
-F1 "MOS15.sch" 50
-$EndSheet
+NoConn ~ 950  1700
 $EndSCHEMATC

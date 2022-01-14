@@ -1221,7 +1221,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 5550 10000 5550
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L IO_Board_V1-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 61685184
 P 5150 2000
 F 0 "J1" H 4800 2750 50  0000 C CNN

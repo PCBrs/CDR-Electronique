@@ -19,7 +19,7 @@ U 1 1 616AAB70
 P 2050 950
 F 0 "J2" H 2158 1131 50  0000 C CNN
 F 1 "BAT_IN" H 2158 1040 50  0000 C CNN
-F 2 "AREA_lib_Connector:Wuerth_batcon_691313710002" H 2050 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 2050 950 50  0001 C CNN
 F 3 "~" H 2050 950 50  0001 C CNN
 	1    2050 950 
 	1    0    0    -1  
@@ -116,7 +116,7 @@ U 1 1 617CAF1F
 P 1100 950
 F 0 "J1" H 1208 1131 50  0000 C CNN
 F 1 "BAT_IN" H 1208 1040 50  0000 C CNN
-F 2 "AREA_lib_Connector:Wuerth_batcon_691313710002" H 1100 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" H 1100 950 50  0001 C CNN
 F 3 "~" H 1100 950 50  0001 C CNN
 	1    1100 950 
 	1    0    0    -1  
@@ -690,7 +690,7 @@ F 3 "~" H 9350 4700 50  0001 C CNN
 	1    9350 4700
 	1    0    0    -1  
 $EndComp
-Text Label 8650 4100 0    50   ~ 0
+Text Label 9900 4100 0    50   ~ 0
 VOUT
 $Comp
 L Device:C C12
@@ -704,19 +704,19 @@ F 3 "~" H 8000 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 4400 9350 4550
+	9350 4100 9350 4550
 Wire Wire Line
 	6300 4200 6450 4200
 Text Label 6450 4200 0    50   ~ 0
 VOUT
 Wire Wire Line
-	9150 4400 9150 4550
+	9150 4100 9150 4550
 Wire Wire Line
-	8950 4400 8950 4550
+	8950 4100 8950 4550
 Wire Wire Line
-	8750 4400 8750 4550
+	8750 4100 8750 4550
 Wire Wire Line
-	8550 4400 8550 4550
+	8550 4100 8550 4550
 Wire Wire Line
 	8550 4850 8550 5400
 Wire Wire Line
@@ -777,27 +777,24 @@ Connection ~ 8000 4100
 Wire Wire Line
 	8000 4100 8350 4100
 Wire Wire Line
-	8350 4550 8350 4400
+	8350 4550 8350 4100
+Wire Wire Line
+	9600 4100 9900 4100
+Wire Wire Line
+	8350 4100 8550 4100
 Connection ~ 8350 4100
+Connection ~ 8550 4100
 Wire Wire Line
-	8350 4100 8650 4100
+	8550 4100 8750 4100
+Connection ~ 8750 4100
 Wire Wire Line
-	8350 4400 8550 4400
-Connection ~ 8350 4400
+	8750 4100 8950 4100
+Connection ~ 8950 4100
 Wire Wire Line
-	8350 4400 8350 4100
-Connection ~ 8550 4400
+	8950 4100 9150 4100
+Connection ~ 9150 4100
 Wire Wire Line
-	8550 4400 8750 4400
-Connection ~ 8750 4400
-Wire Wire Line
-	8750 4400 8950 4400
-Connection ~ 8950 4400
-Wire Wire Line
-	8950 4400 9150 4400
-Connection ~ 9150 4400
-Wire Wire Line
-	9150 4400 9350 4400
+	9150 4100 9350 4100
 Wire Wire Line
 	6300 4400 7550 4400
 $Comp
@@ -835,7 +832,7 @@ Wire Wire Line
 	7550 5400 8000 5400
 NoConn ~ 6300 4300
 $Comp
-L AREA_composant:SIC461ED-T1-GE3 U1
+L Carte_Alim_V5-rescue:SIC461ED-T1-GE3-AREA_composant U1
 U 1 1 61E2315C
 P 5400 4600
 F 0 "U1" H 5400 5667 50  0000 C CNN
@@ -882,4 +879,39 @@ Wire Wire Line
 Connection ~ 2650 4600
 Wire Wire Line
 	2650 4600 2900 4600
+$Comp
+L Device:R R10
+U 1 1 61E33A35
+P 9600 4700
+F 0 "R10" H 9670 4746 50  0000 L CNN
+F 1 "10k" H 9670 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9530 4700 50  0001 C CNN
+F 3 "~" H 9600 4700 50  0001 C CNN
+	1    9600 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4550 9600 4100
+$Comp
+L Device:LED D2
+U 1 1 61E33A3C
+P 9600 5150
+F 0 "D2" V 9639 5032 50  0000 R CNN
+F 1 "LED" V 9548 5032 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9600 5150 50  0001 C CNN
+F 3 "~" H 9600 5150 50  0001 C CNN
+	1    9600 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 4850 9600 5000
+Wire Wire Line
+	9600 5300 9600 5400
+Wire Wire Line
+	9350 4100 9600 4100
+Connection ~ 9350 4100
+Connection ~ 9600 4100
+Wire Wire Line
+	9600 5400 9350 5400
+Connection ~ 9350 5400
 $EndSCHEMATC

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AREA_composant_SIC461ED-T1-GE3
+# Carte_Alim_V5-rescue_SIC461ED-T1-GE3-AREA_composant
 #
-DEF AREA_composant_SIC461ED-T1-GE3 U 0 40 Y Y 1 L N
+DEF Carte_Alim_V5-rescue_SIC461ED-T1-GE3-AREA_composant U 0 40 Y Y 1 L N
 F0 "U" -700 900 50 H V L BNN
-F1 "AREA_composant_SIC461ED-T1-GE3" -700 -1000 50 H V L BNN
+F1 "Carte_Alim_V5-rescue_SIC461ED-T1-GE3-AREA_composant" -700 -1000 50 H V L BNN
 F2 "CONV_SIC461ED-T1-GE3" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"

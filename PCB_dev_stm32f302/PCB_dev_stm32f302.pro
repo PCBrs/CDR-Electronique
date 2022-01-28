@@ -1,4 +1,4 @@
-update=15/01/2022 14:59:01
+update=20/12/2021 23:04:15
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Carte_Alim_V4.net
+LastNetListRead=PCB_dev_stm32f302.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -41,10 +41,9 @@ MinHoleToHole=0.4
 TrackWidth1=0.127
 TrackWidth2=0.15
 TrackWidth3=0.2
-TrackWidth4=0.25
-TrackWidth5=0.3
-TrackWidth6=0.4
-TrackWidth7=0.6
+TrackWidth4=0.3
+TrackWidth5=0.4
+TrackWidth6=0.6
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.6

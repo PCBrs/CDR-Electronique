@@ -65,7 +65,7 @@
       36
     ],
     "visible_layers": "000b0fc_80000001",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "Rmeasure_V1_Board.kicad_prl",

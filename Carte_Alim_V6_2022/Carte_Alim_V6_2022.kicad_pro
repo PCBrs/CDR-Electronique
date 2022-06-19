@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.94,
-          "height": 1.448,
-          "width": 1.448
+          "drill": 0.0,
+          "height": 1.73,
+          "width": 0.58
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -445,6 +445,10 @@
     [
       "2666f127-cc30-4902-b3e9-15c93a508606",
       "REGULO"
+    ],
+    [
+      "1a83a9ae-5da8-4aca-9d54-8e10f34c1c1b",
+      "REGULO5v"
     ],
     [
       "f6ba9475-72b5-4200-9756-81a596ba1af6",

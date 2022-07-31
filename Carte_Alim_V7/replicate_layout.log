@@ -1,0 +1,61 @@
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Plugin executed on: 'win32'
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 300:Plugin executed with python version: '3.9.10 (main, Feb 11 2022, 04:18:11) [MSC v.1928 64 bit (AMD64)]'
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:KiCad build version: (6.0.2)
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 302:Plugin version: 1.0.3
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Frame repr: <wx._core.Frame object at 0x000001E237288E50>
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 322:Preparing replicator with U1 as a reference
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 99:getting a list of all footprints on board
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 350:source anchor footprint is 'U1'
+Located on: ['REGULO']
+With filenames: ['REGULO.kicad_sch']
+With sheet_id:['REGULO']
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 357:Corresponding footprints are 
+[('U3', ['REGULO2']), ('U2', ['REGULO1']), ('U1', ['REGULO'])]
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 369:Showing dialog
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 375:Toolbar position: wx.Point(1883, 117)
+02-20 19:33:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 381:Dialog position: wx.Point(1519, 117)
+02-20 19:33:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:constructing a list of sheets suitable for replication on level:'REGULO', file:'REGULO.kicad_sch'
+02-20 19:33:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 357:suitable sheets are:[['REGULO1'], ['REGULO2']]
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:constructing a list of sheets suitable for replication on level:'REGULO', file:'REGULO.kicad_sch'
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 357:suitable sheets are:[['REGULO1'], ['REGULO2']]
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 143:Replicating layout
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Starting replication of sheets: [['REGULO1'], ['REGULO2']]
+on level: ['REGULO']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
+02-20 19:33:48 root 239:updating GUI message: 'Preparing for replication'
+02-20 19:33:48 root 244:updating GUI with: 0
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 204:Getting the list of source footprints
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 219:Getting the list of all the remaining footprints
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting nets local to source footprints
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 228:Getting source bounding box
+02-20 19:33:48 root 244:updating GUI with: 37
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 232:Getting source tracks
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source zones
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source text items
+02-20 19:33:48 root 244:updating GUI with: 75
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 260:Getting source drawing items
+02-20 19:33:48 root 239:updating GUI message: 'Replicating footprints'
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 653:Replicating footprints
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 659:Replicating footprints on sheet ['REGULO1']
+02-20 19:33:48 root 244:updating GUI with: 3
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 659:Replicating footprints on sheet ['REGULO2']
+02-20 19:33:48 root 244:updating GUI with: 64
+02-20 19:33:48 root 239:updating GUI message: 'Replicating tracks'
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 819:Replicating tracks
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 825:Replicating tracks on sheet ['REGULO1']
+02-20 19:33:48 root 244:updating GUI with: 23
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 825:Replicating tracks on sheet ['REGULO2']
+02-20 19:33:48 root 239:updating GUI message: 'Replicating zones'
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 877:Replicating zones
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating zones on sheet ['REGULO1']
+02-20 19:33:48 root 244:updating GUI with: 25
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating zones on sheet ['REGULO2']
+02-20 19:33:48 root 239:updating GUI message: 'Replicating text'
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 947:Replicating text
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating text on sheet ['REGULO1']
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating text on sheet ['REGULO2']
+02-20 19:33:48 root 239:updating GUI message: 'Replicating drawings'
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 987:Replicating drawings
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 993:Replicating drawings on sheet ['REGULO1']
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 993:Replicating drawings on sheet ['REGULO2']
+02-20 19:33:48 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 167:Replication complete

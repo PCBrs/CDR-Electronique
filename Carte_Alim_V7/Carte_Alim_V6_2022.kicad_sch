@@ -3022,7 +3022,7 @@
       (reference "C20") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/1a83a9ae-5da8-4aca-9d54-8e10f34c1c1b/7a2fd946-bae8-47a0-96e2-e0f85bf4879b"
-      (reference "C21") (unit 1) (value "330u") (footprint "Capacitor_SMD:CP_Elec_8x11.9")
+      (reference "C21") (unit 1) (value "220u") (footprint "Capacitor_SMD:CP_Elec_8x11.9")
     )
     (path "/1a83a9ae-5da8-4aca-9d54-8e10f34c1c1b/b5f9c49a-1563-484c-a82a-d42802513ca9"
       (reference "C22") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -3098,6 +3098,9 @@
     )
     (path "/91308276-bc45-4989-9774-c2978e418468"
       (reference "F1") (unit 1) (value "3557-2") (footprint "AREA_lib_composant:FUSE_3557-2")
+    )
+    (path "/1a83a9ae-5da8-4aca-9d54-8e10f34c1c1b/b7f5cc50-1a61-4713-873e-251ce2f1c6c0"
+      (reference "F2") (unit 1) (value "3557-2") (footprint "AREA_lib_composant:FUSE_3557-2")
     )
     (path "/05907f8a-ae53-47dc-986e-f54079bb4460"
       (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
